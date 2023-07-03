@@ -1,0 +1,42 @@
+{
+    "auth": {
+        "username": "adityagupta_h4RNen",
+        "access_key": "Kyky847fPuzn382fUnhS"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 11",
+            "versions": [
+                "latest"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "OS X Big Sur",
+            "versions": [
+                "latest"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "Windows 11",
+            "versions": [
+                "latest"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "cypress.json",
+        "project_name": "aditya-bstack-onboarding",
+        "build_name": "aditya-bstack-demo",
+        "parallels": "10"
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}

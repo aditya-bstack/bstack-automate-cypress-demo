@@ -1,0 +1,18 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:demo": "cypress run --headed --spec cypress/integration/demo*.js",
+    "cypress:demo_browser": "npm run cypress:demo -- --browser chrome & npm run cypress:demo -- --browser firefox",
+    "cypress:browserstack": "browserstack-cypress run --sync --spec cypress/integration/demo.js,cypress/integration/demo2.js"
+  },
+  "author": "aditya-bstack",
+  "license": "ISC",
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001511",
+    "cypress": "^9.7.0"
+  }
+}

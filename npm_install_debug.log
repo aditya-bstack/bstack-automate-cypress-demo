@@ -1,0 +1,13 @@
+npm verb cli /opt/homebrew/Cellar/node/20.3.1/bin/node /opt/homebrew/bin/npm
+npm info using npm@9.6.7
+npm info using node@v20.3.1
+npm verb title npm install
+npm verb argv "install" "--legacy-peer-deps" "--loglevel" "verbose"
+npm verb logfile logs-max:10 dir:/Users/adityagupta/.npm/_logs/2023-07-03T07_33_11_830Z-
+npm verb logfile /Users/adityagupta/.npm/_logs/2023-07-03T07_33_11_830Z-debug-0.log
+
+up to date, audited 1 package in 139ms
+
+found 0 vulnerabilities
+npm verb exit 0
+npm info ok 
